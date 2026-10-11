@@ -1,6 +1,6 @@
 # Deploy and Host Open WebUI with Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-webui-v012-ollama-private-ai)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/open-webui-v012-ollama-private-ai?referralCode=20H68q)
 
 Open WebUI is a self-hosted chat interface for large language models, similar to ChatGPT, that works with local models through Ollama and with any OpenAI-compatible API. This community template runs Open WebUI with Ollama, private SearXNG web search, Postgres with pgvector for RAG, and Redis.
 

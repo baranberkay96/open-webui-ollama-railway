@@ -239,3 +239,7 @@ Prices: RAM $10/GB-month, vCPU $20/vCPU-month, volume $0.15/GB-month.
 - **Duplicate admin race** only if `UVICORN_WORKERS` > 1 on the very first boot; the template ships with 1.
 - **pgvector dimension** is fixed at first use (1536 with zero padding). Switching to an embedding model with more than 1536 dimensions requires raising `PGVECTOR_INITIALIZE_MAX_VECTOR_LENGTH` before any document is indexed (or re-indexing).
 - **Open WebUI license**: Open WebUI is under its own BSD-3-based license with a branding clause (keep the "Open WebUI" branding unless you qualify for an exception or hold an enterprise license). Mentioned in README.
+
+## Deploy test findings (2026-10-11)
+
+Not yet deploy-tested, but `HOST=::` with Open WebUI's single uvicorn worker is IPv6-only (asyncio sets IPV6_V6ONLY); the same pattern failed Dify's agent backend healthcheck. Fix applied pre-emptively: `HOST=0.0.0.0`.

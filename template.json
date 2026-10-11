@@ -44,8 +44,8 @@
           "required": false
         },
         "HOST": {
-          "defaultValue": "::",
-          "description": "Listen on IPv4+IPv6.",
+          "defaultValue": "0.0.0.0",
+          "description": "Bind address. 0.0.0.0, not '::': single-worker uvicorn on '::' is IPv6-only and Railway's healthcheck connects over IPv4.",
           "required": false
         },
         "WEBUI_URL": {

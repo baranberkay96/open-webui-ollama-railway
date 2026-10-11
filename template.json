@@ -1,6 +1,6 @@
 {
   "name": "Open WebUI v0.12 + Ollama Private AI",
-  "description": "Your own private AI chat: run open models, add web search, RAG and multi-user.",
+  "description": "Private AI chat: run open models with web search, RAG and multiple users.",
   "category": "AI/ML",
   "tags": [
     "open-webui",

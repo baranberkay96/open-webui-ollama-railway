@@ -5,7 +5,7 @@
 | Field | Value |
 |---|---|
 | Name | **Open WebUI v0.12 + Ollama Private AI** (version label `v0.12` = Open WebUI major.minor for a 0.x project; tags are `v0.x.y`) |
-| Description | Your own private AI chat: run open models, add web search, RAG and multi-user. (78 chars) |
+| Description | Private AI chat: run open models with web search, RAG and multiple users. (78 chars) |
 | Category | AI/ML |
 | Tags | open-webui, ollama, llm, chatgpt-alternative, rag, searxng, pgvector, private-ai |
 | User input at deploy | **`WEBUI_ADMIN_EMAIL`** (the admin login). Everything else is generated. |
